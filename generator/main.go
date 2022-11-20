@@ -7,15 +7,12 @@ import (
 	"os"
 )
 
-func main() {
+func generateBandits(filename string, data string) {
 	var gen bandit.BanditGenerator
-	inPath := "./data/"
-	outFilename := "result.csv"
-
-	gen.LoadData(inPath)
-	f, e := os.Create(outFilename)
+	gen.LoadData(data)
+	f, e := os.Create(filename)
 	if e != nil {
-		log.Fatalf("Can't create file %s: %v", outFilename, e)
+		log.Fatalf("Can't create file %s: %v", filename, e)
 	}
 	defer f.Close()
 
@@ -37,4 +34,16 @@ func main() {
 		f.WriteString(line)
 		b = gen.BanditNext()
 	}
+}
+
+func generateFactions(filename string, data string) {
+
+}
+
+func main() {
+	data := "./data/"
+
+	generateBandits("./out/bandits.csv", data)
+	os.Mkdir("./out", 0755)
+
 }

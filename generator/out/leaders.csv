@@ -1,0 +1,30 @@
+nickname,lastname,firstname,midname,birth,gender,influence
+Лукаш,null,null,null,null,null,null
+Воронин,null,null,null,null,null,null
+Крюк,null,null,null,null,null,null
+Каланча,null,null,null,null,null,null
+Шишак,null,null,null,null,null,null
+Йо Саваширо,null,null,null,null,null,null
+Сохеи Доджима,null,null,null,null,null,null
+Горо Маджима,null,null,null,null,null,null
+Тсуёши Канда,null,null,null,null,null,null
+Футоши Шимано,null,null,null,null,null,null
+Феличе Пеппоне,null,null,null,null,null,null
+Эннио Сальери,null,null,null,null,null,null
+Марко Морелло,null,null,null,null,null,null
+Джорно Джованна,Джованна,Джорно,null,1985-04-16,false,2
+Хан,null,null,null,null,null,null
+Серый Лис,null,null,null,null,null,1
+Ситис,null,Ситис,null,null,null,3
+Красный Джон,null,null,null,null,null,null
+Марк Итида,null,null,null,null,null,null
+Резепин,Резепин,Никита,null,null,null,null
+Торетто,null,null,null,null,null,null
+Вито Корлеоне,Андолини,Вито,null,1887-04-29,false,6
+Горбатый,Митин,Иван,null,1927-11-29,false,4
+Ворчун Гамми,Гамми,Ворчун,null,null,false,6
+Сатана,null,Люцифер,null,null,false,9
+Сигараки Томура,Симура,Тенко,null,2180-1-1,false,10
+Эдвард Каллен,Каллен,Энтони,Мейсон,1901-06-20,false,7
+Аро,Вольтури,Аро,null,null,false,9
+Волан-де-Морт,Реддл,Том,Марволо,1926-12-31,false,10
